@@ -5,7 +5,7 @@
 wrapGenerator.mark(__top);
 
 function __top() {
-    var call, prototypeOfObject, _toString, toObject, boxedString, splitString;
+    var call, prototypeOfObject, _toString, toObject, boxedString, splitString, $args = arguments;
 
     return wrapGenerator(function __top$($ctx1) {
         while (1) switch ($ctx1.next) {
@@ -125,11 +125,13 @@ function __top() {
                         return $ctx2.stop();
                     }
                 }, this);
-            }), this);
+            }), this, $args);
         case 6:
             _toString = $ctx1.sent;
 
             toObject = wrapGenerator.mark(function(o) {
+                var $args = arguments;
+
                 return wrapGenerator(function($ctx3) {
                     while (1) switch ($ctx3.next) {
                     case 0:
@@ -183,7 +185,7 @@ function __top() {
                                     return $ctx4.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 6:
                         $ctx3.rval = $ctx3.sent;
                         delete $ctx3.thrown;
@@ -211,7 +213,7 @@ function __top() {
                         return $ctx5.stop();
                     }
                 }, this);
-            }), this);
+            }), this, $args);
         case 10:
             boxedString = $ctx1.sent;
             splitString = boxedString[0] != "a" || !(0 in boxedString);
@@ -335,7 +337,7 @@ function __top() {
                                     return $ctx7.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx6.sent;
                         $ctx6.t0 = splitString;
@@ -360,7 +362,7 @@ function __top() {
                                     return $ctx8.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx6.t1 = $ctx6.sent;
                         $ctx6.t0 = $ctx6.t1 == "[object String]";
@@ -385,7 +387,7 @@ function __top() {
                                     return $ctx9.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx6.t2 = $ctx6.sent;
                         $ctx6.next = 18;
@@ -412,7 +414,7 @@ function __top() {
                                     return $ctx10.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 24:
                         $ctx6.t3 = $ctx6.sent;
 
@@ -448,7 +450,7 @@ function __top() {
                                     return $ctx11.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 31:
                         $ctx6.next = 27;
                         break;
@@ -592,7 +594,7 @@ function __top() {
                                     return $ctx13.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx12.sent;
                         $ctx12.t4 = splitString;
@@ -617,7 +619,7 @@ function __top() {
                                     return $ctx14.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx12.t5 = $ctx12.sent;
                         $ctx12.t4 = $ctx12.t5 == "[object String]";
@@ -642,7 +644,7 @@ function __top() {
                                     return $ctx15.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx12.t6 = $ctx12.sent;
                         $ctx12.next = 18;
@@ -667,7 +669,7 @@ function __top() {
                                     return $ctx16.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 22:
                         result = $ctx12.sent;
                         thisp = $args[1];
@@ -686,7 +688,7 @@ function __top() {
                                     return $ctx17.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 26:
                         $ctx12.t7 = $ctx12.sent;
 
@@ -724,7 +726,7 @@ function __top() {
                                     return $ctx18.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 34:
                         result[i] = $ctx12.sent;
                     case 35:
@@ -890,7 +892,7 @@ function __top() {
                                     return $ctx20.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx19.sent;
                         $ctx19.t8 = splitString;
@@ -915,7 +917,7 @@ function __top() {
                                     return $ctx21.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx19.t9 = $ctx19.sent;
                         $ctx19.t8 = $ctx19.t9 == "[object String]";
@@ -940,7 +942,7 @@ function __top() {
                                     return $ctx22.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx19.t10 = $ctx19.sent;
                         $ctx19.next = 18;
@@ -967,7 +969,7 @@ function __top() {
                                     return $ctx23.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 24:
                         $ctx19.t11 = $ctx19.sent;
 
@@ -1006,7 +1008,7 @@ function __top() {
                                     return $ctx24.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 33:
                         if (!$ctx19.sent) {
                             $ctx19.next = 36;
@@ -1028,7 +1030,7 @@ function __top() {
                                     return $ctx25.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 36:
                         i++;
                         $ctx19.next = 28;
@@ -1164,7 +1166,7 @@ function __top() {
                                     return $ctx27.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx26.sent;
                         $ctx26.t12 = splitString;
@@ -1189,7 +1191,7 @@ function __top() {
                                     return $ctx28.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx26.t13 = $ctx26.sent;
                         $ctx26.t12 = $ctx26.t13 == "[object String]";
@@ -1214,7 +1216,7 @@ function __top() {
                                     return $ctx29.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx26.t14 = $ctx26.sent;
                         $ctx26.next = 18;
@@ -1240,7 +1242,7 @@ function __top() {
                                     return $ctx30.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 23:
                         $ctx26.t15 = $ctx26.sent;
 
@@ -1280,7 +1282,7 @@ function __top() {
                                     return $ctx31.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 32:
                         $ctx26.t16 = !$ctx26.sent;
                     case 33:
@@ -1428,7 +1430,7 @@ function __top() {
                                     return $ctx33.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx32.sent;
                         $ctx32.t17 = splitString;
@@ -1453,7 +1455,7 @@ function __top() {
                                     return $ctx34.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx32.t18 = $ctx32.sent;
                         $ctx32.t17 = $ctx32.t18 == "[object String]";
@@ -1478,7 +1480,7 @@ function __top() {
                                     return $ctx35.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx32.t19 = $ctx32.sent;
                         $ctx32.next = 18;
@@ -1504,7 +1506,7 @@ function __top() {
                                     return $ctx36.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 23:
                         $ctx32.t20 = $ctx32.sent;
 
@@ -1544,7 +1546,7 @@ function __top() {
                                     return $ctx37.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 32:
                         $ctx32.t21 = $ctx32.sent;
                     case 33:
@@ -1692,7 +1694,7 @@ function __top() {
                                     return $ctx39.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx38.sent;
                         $ctx38.t22 = splitString;
@@ -1717,7 +1719,7 @@ function __top() {
                                     return $ctx40.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx38.t23 = $ctx38.sent;
                         $ctx38.t22 = $ctx38.t23 == "[object String]";
@@ -1742,7 +1744,7 @@ function __top() {
                                     return $ctx41.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx38.t24 = $ctx38.sent;
                         $ctx38.next = 18;
@@ -1767,7 +1769,7 @@ function __top() {
                                     return $ctx42.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 22:
                         $ctx38.t25 = $ctx38.sent;
 
@@ -1843,7 +1845,7 @@ function __top() {
                                     return $ctx43.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 44:
                         result = $ctx38.sent;
                     case 45:
@@ -1981,7 +1983,7 @@ function __top() {
                                     return $ctx45.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 4:
                         object = $ctx44.sent;
                         $ctx44.t26 = splitString;
@@ -2006,7 +2008,7 @@ function __top() {
                                     return $ctx46.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 9:
                         $ctx44.t27 = $ctx44.sent;
                         $ctx44.t26 = $ctx44.t27 == "[object String]";
@@ -2031,7 +2033,7 @@ function __top() {
                                     return $ctx47.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 14:
                         $ctx44.t28 = $ctx44.sent;
                         $ctx44.next = 18;
@@ -2056,7 +2058,7 @@ function __top() {
                                     return $ctx48.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 22:
                         $ctx44.t29 = $ctx44.sent;
 
@@ -2137,7 +2139,7 @@ function __top() {
                                     return $ctx49.stop();
                                 }
                             }, this);
-                        }), this);
+                        }), this, $args);
                     case 48:
                         result = $ctx44.sent;
                     case 49:

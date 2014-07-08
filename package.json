@@ -18,6 +18,7 @@
     "commander": "~2.1.0"
   },
   "devDependencies": {
-    "esprima": "git://github.com/ariya/esprima.git#harmony"
+    "esprima": "git://github.com/ariya/esprima.git#harmony",
+    "mocha": "^1.20.1"
   }
 }
