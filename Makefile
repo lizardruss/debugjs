@@ -5,6 +5,5 @@ browserify:
 runtime:
 	@echo building runtime
 	@bin/transform -x ./runtime/source/array.js > ./runtime/compiled/array.js
-	@bin/transform -x ./runtime/source/bind.js > ./runtime/compiled/bind.js
 
 .PHONY: runtime
